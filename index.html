@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Landing page do Mundo do Café — conheça nossos cafés e venha viver essa experiência!"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Mundo do Café</title>
+  </head>
+  <body>
+    <!--Header - Cabeçalho 
+        nav - menu de navegação
+        li - itens da lista
+        a - links
+        main - conteúdo principal da página
+        section - seções do conteúdo
+        article - artigos ou produtos
+        footer - rodapé
+    -->
+    <header>
+      <nav class="navbar">
+        <div class="logo">Mundo do Café</div>
+        <div class="menu-toggle" id="menu-toggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <ul class="nav-links">
+          <li><a href="#home">Início</a></li>
+          <li><a href="#about">Sobre</a></li>
+          <li><a href="#products">Produtos</a></li>
+          <li><a href="#address">Endereço</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home" class="hero">
+        <div class="hero-content">
+          <h1>Bem-vindo ao Mundo do Café</h1>
+          <p>Seu café favorito para qualquer momento!</p>
+          <a href="#products" class="btn">Conheça nossos cafés</a>
+        </div>
+      </section>
+      <section id="about" class="about">
+        <div class="content">
+          <h2>Sobre Nós</h2>
+          <p>
+            No Café Momento, acreditamos que cada xícara de café deve ser uma
+            experiência única. Fundado em 2020, nosso objetivo é oferecer cafés
+            de alta qualidade, cultivados de forma sustentável e preparados com
+            paixão.
+          </p>
+        </div>
+      </section>
+      <section id="products" class="products">
+        <div class="content">
+          <h2>Nossos Produtos</h2>
+          <div class="products-grid">
+            <article class="product-card">
+              <div class="product-icon">☕</div>
+              <h3>Café Expresso</h3>
+              <p>Um café forte e encorpado, perfeito para começar o dia.</p>
+              <span class="price">R$ 7,00</span>
+            </article>
+
+            <article class="product-card">
+              <div class="product-icon">🥤</div>
+              <h3>Cappuccino</h3>
+              <p>Um delicioso e cremoso café com leite e espuma de leite.</p>
+              <span class="price">R$ 15,00</span>
+            </article>
+
+            <article class="product-card">
+              <div class="product-icon">🧊</div>
+              <h3>Café Gelado</h3>
+              <p>Um café refrescante e perfeito para os dias quentes.</p>
+              <span class="price">R$ 10,00</span>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="address" class="address">
+        <div class="content">
+          <h2>Nosso Endereço</h2>
+          <div class="address-details">
+            <p>Avenida Cidade Jardim, 22261</p>
+            <p>Bairro Jardim Satélite, São José dos Campos, SP</p>
+            <p>Telefone: (11) 1234-5678</p>
+            <p>Email: contato@cafemoment.com.br</p>
+          </div>
+          <div class="map">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3666.3540758434383!2d-45.882372425387345!3d-23.230199049508112!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cc4ac22c011987%3A0xd9b54c4308cd8fae!2sAv.%20Cidade%20Jardim%2C%202261%20-%20Jardim%20Sat%C3%A9lite%2C%20S%C3%A3o%20Jos%C3%A9%20dos%20Campos%20-%20SP%2C%2012231-675!5e0!3m2!1spt-BR!2sbr!4v1760481412607!5m2!1spt-BR!2sbr"
+              width="100%"
+              height="400"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>&copy; 2025 Café Momento. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="scripts.js" defer></script>
+  </body>
+</html>
